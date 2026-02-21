@@ -1,0 +1,301 @@
+
+@font-face {
+  font-family: "Fixel Display";
+  /* src: url("../fonts/FixelDisplay/FixelDisplayThin/FixelDisplayThin.eot"); */
+  /* src: url("../fonts/FixelDisplay/FixelDisplayThin/FixelDisplayThin.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelDisplay/FixelDisplay-Thin.woff2") format("woff2");
+  /* url("../fonts/FixelDisplay/FixelDisplayThin/FixelDisplayThin.ttf") format("truetype"); */
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Fixel Display";
+  /* src: url("../fonts/FixelDisplay/FixelDisplayExtraLight/FixelDisplayExtraLight.eot"); */
+  /* src: url("../fonts/FixelDisplay/FixelDisplayExtraLight/FixelDisplayExtraLight.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelDisplay/FixelDisplay-ExtraLight.woff2") format("woff2");
+  /* url("../fonts/FixelDisplay/FixelDisplayExtraLight/FixelDisplayExtraLight.ttf") format("truetype"); */
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Fixel Display";
+  /* src: url("../fonts/FixelDisplay/FixelDisplayLight/FixelDisplayLight.eot"); */
+  /* src: url("../fonts/FixelDisplay/FixelDisplayLight/FixelDisplayLight.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelDisplay/FixelDisplay-Light.woff2") format("woff2");
+  /* url("../fonts/FixelDisplay/FixelDisplayLight/FixelDisplayLight.ttf") format("truetype"); */
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Fixel Display";
+  /* src: url("../fonts/FixelDisplay/FixelDisplayRegular/FixelDisplayRegular.eot"); */
+  /* src: url("../fonts/FixelDisplay/FixelDisplayRegular/FixelDisplayRegular.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelDisplay/FixelDisplay-Regular.woff2") format("woff2");
+  /* url("../fonts/FixelDisplay/FixelDisplayRegular/FixelDisplayRegular.ttf") format("truetype"); */
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Fixel Display";
+  /* src: url("../fonts/FixelDisplay/FixelDisplayMedium/FixelDisplayMedium.eot"); */
+  /* src: url("../fonts/FixelDisplay/FixelDisplayMedium/FixelDisplayMedium.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelDisplay/FixelDisplay-Medium.woff2") format("woff2");
+  /* url("../fonts/FixelDisplay/FixelDisplayMedium/FixelDisplayMedium.ttf") format("truetype"); */
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Fixel Display";
+  /* src: url("../fonts/FixelDisplay/FixelDisplaySemiBold/FixelDisplaySemiBold.eot"); */
+  /* src: url("../fonts/FixelDisplay/FixelDisplaySemiBold/FixelDisplaySemiBold.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelDisplay/FixelDisplay-SemiBold.woff2") format("woff2");
+  /* url("../fonts/FixelDisplay/FixelDisplaySemiBold/FixelDisplaySemiBold.ttf") format("truetype"); */
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Fixel Display";
+  /* src: url("../fonts/FixelDisplay/FixelDisplayBold/FixelDisplayBold.eot"); */
+  /* src: url("../fonts/FixelDisplay/FixelDisplayBold/FixelDisplayBold.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelDisplay/FixelDisplay-Bold.woff2") format("woff2");
+  /* url("../fonts/FixelDisplay/FixelDisplayBold/FixelDisplayBold.ttf") format("truetype"); */
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Fixel Display";
+  /* src: url("../fonts/FixelDisplay/FixelDisplayExtraBold/FixelDisplayExtraBold.eot"); */
+  /* src: url("../fonts/FixelDisplay/FixelDisplayExtraBold/FixelDisplayExtraBold.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelDisplay/FixelDisplay-ExtraBold.woff2") format("woff2");
+  /* url("../fonts/FixelDisplay/FixelDisplayExtraBold/FixelDisplayExtraBold.ttf") format("truetype"); */
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Fixel Display";
+  /* src: url("../fonts/FixelDisplay/FixelDisplayBlack/FixelDisplayBlack.eot"); */
+  /* src: url("../fonts/FixelDisplay/FixelDisplayBlack/FixelDisplayBlack.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelDisplay/FixelDisplay-Black.woff2") format("woff2");
+  /* url("../fonts/FixelDisplay/FixelDisplayBlack/FixelDisplayBlack.ttf") format("truetype"); */
+  font-style: normal;
+  font-weight: 1000;
+}
+
+/* -------- */
+
+@font-face {
+  font-family: "Fixel Text";
+  /* src: url("../fonts/FixelText/FixelTextThin/FixelTextThin.eot"); */
+  /* src: url("../fonts/FixelText/FixelTextThin/FixelTextThin.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelText/FixelText-Thin.woff2") format("woff2");
+  /* url("../fonts/FixelText/FixelTextThin/FixelTextThin.ttf") format("truetype"); */
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fixel Text";
+  /* src: url("../fonts/FixelText/FixelTextExtraLight/FixelTextExtraLight.eot"); */
+  /* src: url("../fonts/FixelText/FixelTextExtraLight/FixelTextExtraLight.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelText/FixelText-ExtraLight.woff2") format("woff2");
+  /* url("../fonts/FixelText/FixelTextExtraLight/FixelTextExtraLight.ttf") format("truetype"); */
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fixel Text";
+  /* src: url("../fonts/FixelText/FixelTextLight/FixelTextLight.eot"); */
+  /* src: url("../fonts/FixelText/FixelTextLight/FixelTextLight.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelText/FixelText-Light.woff2") format("woff2");
+  /* url("../fonts/FixelText/FixelTextLight/FixelTextLight.ttf") format("truetype"); */
+  font-style: normal;
+  font-weight: 300;
+}
+
+
+
+@font-face {
+  font-family: "Fixel Text";
+  /* src: url("../fonts/FixelText/FixelTextRegular/FixelTextRegular.eot"); */
+  /* src: url("../fonts/FixelText/FixelTextRegular/FixelTextRegular.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelText/FixelText-Regular.woff2") format("woff2");
+  /* url("../fonts/FixelText/FixelTextRegular/FixelTextRegular.ttf") format("truetype"); */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fixel Text";
+  src: url("../fonts/FixelText/FixelText-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fixel Text";
+  /* src: url("../fonts/FixelText/FixelTextSemiBold/FixelTextSemiBold.eot"); */
+  /* src: url("../fonts/FixelText/FixelTextSemiBold/FixelTextSemiBold.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelText/FixelText-SemiBold.woff2") format("woff2");
+  /* url("../fonts/FixelText/FixelTextSemiBold/FixelTextSemiBold.ttf") format("truetype"); */
+  font-style: 600;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Fixel Text";
+  /* src: url("../fonts/FixelText/FixelTextBold/FixelTextBold.eot"); */
+  /* src: url("../fonts/FixelText/FixelTextBold/FixelTextBold.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelText/FixelText-Bold.woff2") format("woff2");
+  /* url("../fonts/FixelText/FixelTextBold/FixelTextBold.ttf") format("truetype"); */
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fixel Text";
+  /* src: url("../fonts/FixelText/FixelTextExtraBold/FixelTextExtraBold.eot"); */
+  /* src: url("../fonts/FixelText/FixelTextExtraBold/FixelTextExtraBold.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelText/FixelText-ExtraBold.woff2") format("woff2");
+  /* url("../fonts/FixelText/FixelTextExtraBold/FixelTextExtraBold.ttf") format("truetype"); */
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fixel Text";
+  /* src: url("../fonts/FixelText/FixelTextBlack/FixelTextBlack.eot"); */
+  /* src: url("../fonts/FixelText/FixelTextBlack/FixelTextBlack.eot?#iefix")format("embedded-opentype"), */
+  src: url("../fonts/FixelText/FixelText-Black.woff2") format("woff2");
+  /* url("../fonts/FixelText/FixelTextBlack/FixelTextBlack.ttf") format("truetype"); */
+  font-weight: 1000;
+  font-style: normal;
+}
+
+
+* {
+  border-radius: 5%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.full-height {
+  height: 100%;
+}
+
+body {
+  font-family: "Fixel Text", sans-serif;
+  background: linear-gradient(90deg, #e6e2dc 0%, #efe8e1 60%);
+}
+section {
+  min-height: 100vh;
+  width: auto;
+  padding: 0 2rem;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+
+h1 {
+  font-family: "Fixel Display", sans-serif;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+/* section.presenting {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding: 32px 64px; */
+  /* box-sizing: border-box;
+  grid-template-areas:
+    "navbar image"
+    "article image"
+  ;
+} */
+
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+}
+
+section.presenting.flex-row>.flex-col {
+  flex-grow: 1;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+
+.img-logo {
+  height: 32px;
+  margin-right: auto;
+
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #6b6b6b;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  color: #2f2f2f;
+}
+
+
+article.article {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  max-width: 50%;
+  font-size: 18px;
+}
+
+.right-picture {
+  flex-shrink: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.presenting-image {
+  height: 60rem;
+  object-fit: contain;
+  position: relative;
+  bottom: 5rem;
+  transform: translateY(-5%);
+}
