@@ -181,7 +181,7 @@
 
 
 * {
-  border-radius: 5%;
+  border-radius: 3rem;
 }
 
 html, body {
@@ -324,3 +324,54 @@ article.article {
   max-width: 25rem;
 }
 
+
+/*=====================Problems=====================*/
+
+h2 {
+  font-family: "Fixel Display", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+section.problems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #909E7A;
+  color: #FFFFFFFF;
+
+  padding: 4rem 8rem;
+}
+
+.problems-grid-col-2 {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.problems-problem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.25rem;
+  color: #33321E;
+  background-color: #FFFFFFFF;
+  padding: 2rem;
+}
+
+h3.problems-subheader {
+  text-align: left;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #33321E;
+  display: flex;
+}
+h3.problems-subheader svg {
+  height: 3rem;
+  margin-right: 0.5rem;
+}
