@@ -375,3 +375,14 @@ h3.problems-subheader svg {
   height: 3rem;
   margin-right: 0.5rem;
 }
+
+.midsection-image {
+  height: 30rem;
+  object-fit: contain;
+  position: absolute;
+  top: 175vh;
+  left: 90vw;
+  padding: 0;
+  margin-left: auto;
+  transform: translateX();
+}
