@@ -197,6 +197,7 @@ html, body {
 body {
   font-family: "Fixel Text", sans-serif;
   background: linear-gradient(90deg, #e6e2dc 0%, #efe8e1 60%);
+  max-width: 100%;
 }
 section {
   min-height: 100vh;
@@ -211,7 +212,7 @@ section {
 
 h1 {
   font-family: "Fixel Display", sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 600;
 }
 
@@ -245,6 +246,11 @@ h1 {
 
 section.presenting.flex-row>.flex-col {
   flex-grow: 1;
+}
+
+section.presenting {
+  padding-left: 4rem;
+  padding-right: 1rem;
 }
 
 
@@ -282,7 +288,6 @@ article.article {
   flex-direction: column;
   justify-content: center;
   gap: 16px;
-  max-width: 50%;
   font-size: 18px;
 }
 
@@ -299,3 +304,23 @@ article.article {
   bottom: 5rem;
   transform: translateY(-5%);
 }
+
+.presenting-text {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.presenting-button {
+  background-color: #45694E;
+  color: #FFFFFFFF;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+  margin: 4px 2px;
+  border-radius: 5rem;
+  max-width: 25rem;
+}
+
