@@ -196,8 +196,9 @@ html, body {
 
 body {
   font-family: "Fixel Text", sans-serif;
-  background: linear-gradient(90deg, #e6e2dc 0%, #efe8e1 60%);
+  background-color: aliceblue;
   max-width: 100%;
+  overflow-x: hidden;
 }
 section {
   min-height: 100vh;
@@ -341,6 +342,7 @@ section.problems {
   gap: 2rem;
   background-color: #909E7A;
   color: #FFFFFFFF;
+  /* overflow-y: hidden; */
 
   padding: 4rem 8rem;
 }
@@ -376,7 +378,7 @@ h3.problems-subheader svg {
   margin-right: 0.5rem;
 }
 
-.midsection-image {
+#midsection-image {
   height: 30rem;
   object-fit: contain;
   position: absolute;
@@ -388,13 +390,15 @@ h3.problems-subheader svg {
 }
 
 
+
+/*=====================How it works===================== */
 section.how-it-works {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background-color: #e6e2dc;
+  background-color: aliceblue;
   padding: 4rem 8rem;
   width: 100%;
 }
@@ -456,4 +460,56 @@ li.how-step::before {
 
 video.how-it-works-video {
   transform: translateX(10%);
+}
+
+
+/*=====================Features===================== */
+
+section.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #EBE3DE;
+  padding: 4rem 8rem;
+}
+
+grid.features-grid-col-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.features-feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.25rem;
+  color: #3B5941;
+  background-color: #FFFFFFFF;
+  padding: 2rem;
+}
+
+h3.features-subheader {
+  text-align: left;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+}
+h3.features-subheader svg {
+  height: 5rem;
+  width: auto;
+  margin-left: 0.5rem;
+  transform: translateY(-1rem);
+}
+
+p.features-text {
+  text-align: left;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #000000;
 }
