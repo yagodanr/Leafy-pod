@@ -430,6 +430,11 @@ li.how-step {
   font-weight: 400;
   background-color: #FFFFFFFF;
   list-style-position: inside;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
 }
 
 li.how-step::before {
@@ -442,8 +447,11 @@ li.how-step::before {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0 0.5rem 0 0;
-  display: inline-block;
-  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 video.how-it-works-video {
