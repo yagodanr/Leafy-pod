@@ -196,7 +196,7 @@ html, body {
 
 body {
   font-family: "Fixel Text", sans-serif;
-  background-color: aliceblue;
+  background-color: white;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -398,7 +398,7 @@ section.how-it-works {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background-color: aliceblue;
+  background-color: white;
   padding: 4rem 8rem;
   width: 100%;
 }
@@ -512,4 +512,88 @@ p.features-text {
   font-size: 1.5rem;
   font-weight: 300;
   color: #000000;
+}
+
+/*=====================Application===================== */
+
+section.application {
+  background-color: white;
+  padding: 2rem 4rem;
+}
+
+section.application > .flex-row {
+  justify-content: space-between;
+}
+
+section.application > .flex-row > .flex-col {
+  flex: 1;
+  margin-right: 2rem;
+  height: 100%;
+  width: 100%;
+  padding-left: 5rem;
+}
+
+section.application > .flex-row > .flex-col:last-child {
+  margin-right: 0;
+}
+
+ol.application-list {
+  list-style: none;
+  counter-reset: item;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-right: 1rem;
+}
+
+li.application-item {
+  counter-increment: item;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  color: #33321E;
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: #FFFFFFFF;
+  list-style-position: inside;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+li.application-item::before {
+  content: counter(item);
+  color: #FFFFFFFF;
+  background-color: #45694E;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 1rem 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-shrink: 0; /* Prevents the circle from shrinking */
+}
+
+h3.application-subheader {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #45694E;
+  width: 100%;
+  margin: 0 0 0.25rem 0;
+}
+ol.application-list>li>p.application-text {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+video.application-video {
+  flex-shrink: 1;
+  width: 100%;
 }
