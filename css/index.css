@@ -669,6 +669,12 @@ h3.packaging-subheader {
   flex-shrink: 0;
 }
 
+#leaf-left-packaging {
+  position: absolute;
+  top: 625vh;
+  transform: translateX(-50%);
+}
+
 /*=====================Feedback===================== */
 
 section.feedback {
